@@ -1,0 +1,105 @@
+#main {
+  padding: 60px;
+  font-size: 1.2em;
+  font-family: 'PT Sans', sans-serif;
+  
+}
+
+#text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.2em;;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding: 40px 0;
+}
+
+body {
+  position: relative;
+  font-size: 20px;
+  color: black;
+  position: relative;
+  background-color: #DEC79B;
+}
+
+.container-fluid {
+  padding: 50px;
+}
+
+.navbar-light {
+  background-color: #fff;
+  border-bottom: 1px solid #aaa;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00ff66;
+}
+
+#about-head,#project-head {
+  font-size: 2.5em;
+  font-family: 'Changa', sans-serif;
+  text-shadow: 3px 3px 3px white;
+}
+
+a.active {
+  border-bottom: 2px solid #00ff66;
+}
+
+li {
+  padding: 10px;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+#effect::after {
+  content: "|";
+  display: inline;
+  animation: blink 1.5s infinite;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  font-size: 0.65em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 481px){
+  #main {
+  float: left;
+  padding: 0;
+  margin:3%;
+  width: 94%;
+  }
+  
+  nav#navbar {
+    position: relative;
+  }
+}
+
+#welcome-section {
+  display: inline-block;
+  height: 100vh;
+}
